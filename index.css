@@ -19,23 +19,28 @@ section > h2:first-child{
 
 .topbar{
 	background:#d43c33;
-	padding:4.5vw 2.5vw;
+	padding:5.3125vw 3.125vw;
 	//border:1px solid green;
 	display:flex;
 	align-items:center;
 	justify-content:space-between;   //两边位置
 }
 .topbar .logo{
-	width:38vw;
+	//width:38vw;
+	width:44.375vw;
+	height:7.8125vw;
+	vertical-align:top;
 }
 .topbar .downloadApp{
-	line-height:7.5vw;
+	line-height:6.25vw;
 	border:1px solid white;
 	border-radius:4.25vw;
 	display:block;
 	color:white;
 	text-decoration:none;
-	padding:0.5em;
+	//padding:0.2em;
+	padding:1.5625vw 3.4375vw;
+	font-size:4.6875vw;
 }
 
 .siteNav{}
@@ -66,6 +71,9 @@ section > h2:first-child{
 
 .tabContent >li{display:none;}
 .tabContent >li.active{display:block;}
+
+
+
 
 
 .playlists{
@@ -128,14 +136,14 @@ section > h2:first-child{
 	top:50%;
 	transform:translateY(-50%);
 	fill:#AAAAAA;
-border:1px solid green;
+//border:1px solid green;
 }
 	.lastestMusic >ol >li svg.sq{
 		width:4.2vw;
 		height:4.2vw;
 		margin-right:0.5em;
-		fill:#FDB196;
-border:1px solid green;
+		fill:#D33A31;
+//border:1px solid green;
 	}
 section.art{
 	background:transparent url(http://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922) no-repeat center 0;
